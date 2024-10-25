@@ -1,0 +1,34 @@
+.Titulo1 {
+
+display: flex;
+justify-content: center;
+color: blue;
+
+}
+
+.SubTitulo1 {
+
+justify-content: right;
+display: flex;
+color: rgba(0, 128, 0, 0.712);
+
+}
+
+.SubTitulo2 {
+
+display: flex;
+justify-content: left;
+color: greenyellow;
+
+}
+
+.Titulo2 {
+
+height: 40px;
+display: flex;
+justify-content: left;
+font-size: 40px;
+color: rgba(0, 128, 0, 0.644);
+
+}
+
