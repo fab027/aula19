@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;    
+}
+.divA, .divB {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.musics::after {
+
+content:"*";
+
+}
+
+.musics::before {
+
+    content: "*";
+    
+    }
+
+
+a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #007BFF;
+}
+a:active {
+    color: #FF5733;
+}
+
+.Titulo {
+
+font-size: 50px;
+
+}
